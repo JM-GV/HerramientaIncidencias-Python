@@ -1,0 +1,46 @@
+[
+  {
+    "id": "1",
+    "titulo": "Problemas de Red",
+    "descripcion": "Caidas de conexión en la Sala de Servidores Ubuntu",
+    "prioridad": "Alta",
+    "asignado_a": "usuario",
+    "estado": "Finalizado",
+    "creado_en": "2025-09-03T09:30:07",
+    "historial": [
+      {
+        "fecha": "2025-09-03T09:36:27",
+        "estado": "Finalizado",
+        "comentario": "Había que refrescar el servicio de DHCP para renovar las IPs de los equipos",
+        "usuario": "usuario"
+      }
+    ]
+  },
+  {
+    "id": "2",
+    "titulo": "Sin login",
+    "descripcion": "No puedo acceder al sistema porque no tengo usuario en la plataforma",
+    "prioridad": "Alta",
+    "asignado_a": "usuario",
+    "estado": "Asignado",
+    "creado_en": "2025-09-03T09:41:55",
+    "historial": []
+  },
+  {
+    "id": "3",
+    "titulo": "Instalar Python",
+    "descripcion": "Es de caracter obligatorio tener instalado Python en tu equipo de trabajo",
+    "prioridad": "Baja",
+    "asignado_a": "usuario",
+    "estado": "Cancelado",
+    "creado_en": "2025-09-03T10:28:09",
+    "historial": [
+      {
+        "fecha": "2025-09-03T10:28:50",
+        "estado": "Cancelado",
+        "comentario": "El equipo ya tiene Python instalado",
+        "usuario": "usuario"
+      }
+    ]
+  }
+]
