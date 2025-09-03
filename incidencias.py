@@ -22,7 +22,7 @@ ESTADOS_VALIDOS = ["Asignado", "En Curso", "Cancelado", "Finalizado"]
 # Configuración de GitHub
 GITHUB_TOKEN = "TOKENDEACCESO"
 REPO_OWNER = "JM-GV"
-REPO_NAME = "CursoGHActions2025"
+REPO_NAME = "HerramientaIncidencias-Python"
 BRANCH = "main"  # Cambia si usas otra rama
 
 # === Funciones de utilidad para GitHub ===
