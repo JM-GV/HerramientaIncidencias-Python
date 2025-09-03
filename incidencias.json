@@ -1,31 +1,5 @@
 [
-  {
-    "id": "2",
-    "titulo": "Sin login",
-    "descripcion": "No puedo acceder al sistema porque no tengo usuario en la plataforma",
-    "prioridad": "Alta",
-    "asignado_a": "usuario",
-    "estado": "Asignado",
-    "creado_en": "2025-09-03T09:41:55",
-    "historial": []
-  },
-  {
-    "id": "3",
-    "titulo": "Instalar Python",
-    "descripcion": "Es de caracter obligatorio tener instalado Python en tu equipo de trabajo",
-    "prioridad": "Baja",
-    "asignado_a": "usuario",
-    "estado": "Cancelado",
-    "creado_en": "2025-09-03T10:28:09",
-    "historial": [
-      {
-        "fecha": "2025-09-03T10:28:50",
-        "estado": "Cancelado",
-        "comentario": "El equipo ya tiene Python instalado",
-        "usuario": "usuario"
-      }
-    ]
-  },
+  
   {
     "id": "4",
     "titulo": "Problemas de Red",
@@ -34,16 +8,6 @@
     "asignado_a": "usuario",
     "estado": "Asignado",
     "creado_en": "2025-09-03T13:17:25",
-    "historial": []
-  },
-  {
-    "id": "1",
-    "titulo": "Prueba",
-    "descripcion": "Descripcion de Prueba no se que poner",
-    "prioridad": "Urgente",
-    "asignado_a": "usuario",
-    "estado": "Asignado",
-    "creado_en": "2025-09-03T13:36:07",
     "historial": []
   }
 ]
