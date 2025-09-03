@@ -1,13 +1,19 @@
 [
-  
   {
     "id": "4",
     "titulo": "Problemas de Red",
     "descripcion": "Se producen caídas de red en la sala de servidores desde ayer. Esperamos respuesta por parte del equipo de Apoyo para obtener algo más de información. Si necesitan algun dato más, hacednoslo saber. Un saludo",
     "prioridad": "Baja",
     "asignado_a": "usuario",
-    "estado": "Asignado",
+    "estado": "En Curso",
     "creado_en": "2025-09-03T13:17:25",
-    "historial": []
+    "historial": [
+      {
+        "fecha": "2025-09-03T13:53:13",
+        "estado": "En Curso",
+        "comentario": "Se empieza a trabajar en la incidencia.",
+        "usuario": "usuario"
+      }
+    ]
   }
 ]
