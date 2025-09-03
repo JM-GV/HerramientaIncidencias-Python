@@ -1,6 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
+#  TOKENDEACCESO : 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
+
 import requests
 import base64
 import json
@@ -20,7 +22,7 @@ PRIORIDADES_VALIDAS = ["Baja", "Alta", "Urgente"]
 ESTADOS_VALIDOS = ["Asignado", "En Curso", "Cancelado", "Finalizado"]
 
 # Configuración de GitHub
-GITHUB_TOKEN = "TOKENDEACCESO"
+GITHUB_TOKEN = "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"
 REPO_OWNER = "JM-GV"
 REPO_NAME = "HerramientaIncidencias-Python"
 BRANCH = "main"  # Cambia si usas otra rama
