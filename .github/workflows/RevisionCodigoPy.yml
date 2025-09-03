@@ -1,0 +1,27 @@
+
+name: Revision Codigo Python # Se revisa el código del archivo incidencias.py cada vez que se realiza un cambio en el repositorio
+on:
+  push:
+    branches:
+      - main # Solo se ejecuta en esta rama
+
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Revision de Codigo
+      uses: actions/checkout@v3
+
+    - name: Configuracion Set Up de Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: '3.13'
+
+    - name: Install dependencies
+      run: |
+        python -m pip install --upgrade pip
+        pip install flake8
+    - name: Check Python syntax
+      run: |
+        python -m py_compile incidencias.py
