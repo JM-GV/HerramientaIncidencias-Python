@@ -1,7 +1,8 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#  TOKENDEACCESO : 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
+#  TOKENDEACCESO : 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
+#  SI DA ERROR DE BAD CREDENTIALS PUEDE SER QUE HAYA DESAPARECIDO EL TOKEN
 
 import requests
 import base64
@@ -22,7 +23,7 @@ PRIORIDADES_VALIDAS = ["Baja", "Alta", "Urgente"]
 ESTADOS_VALIDOS = ["Asignado", "En Curso", "Cancelado", "Finalizado"]
 
 # Configuración de GitHub
-GITHUB_TOKEN = "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"
+GITHUB_TOKEN = "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"
 REPO_OWNER = "JM-GV"
 REPO_NAME = "HerramientaIncidencias-Python"
 BRANCH = "main"  # Cambia si usas otra rama
