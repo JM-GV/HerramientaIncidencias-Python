@@ -35,5 +35,15 @@
     "estado": "Asignado",
     "creado_en": "2025-09-03T13:17:25",
     "historial": []
+  },
+  {
+    "id": "1",
+    "titulo": "Prueba",
+    "descripcion": "Descripcion de Prueba no se que poner",
+    "prioridad": "Urgente",
+    "asignado_a": "usuario",
+    "estado": "Asignado",
+    "creado_en": "2025-09-03T13:36:07",
+    "historial": []
   }
 ]
