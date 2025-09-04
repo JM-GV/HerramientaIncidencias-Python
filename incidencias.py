@@ -1,8 +1,7 @@
 #!/usr/bin/env python3
 # -*- coding: utf-8 -*-
 
-#  TOKENDEACCESO : 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
-#  SI DA ERROR DE BAD CREDENTIALS PUEDE SER QUE HAYA DESAPARECIDO EL TOKEN
+#  TOKENDEACCESO : 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
 
 import requests
 import base64
@@ -17,13 +16,13 @@ from colorama import init, Fore, Style
 init(autoreset=True)
 
 # === Configuración ===
-ADMIN_USER = os.getenv("ADMIN_USER")
-ADMIN_PASS = os.getenv("ADMIN_PASS")
+ADMIN_USER = "root"
+ADMIN_PASS = "1234"
 PRIORIDADES_VALIDAS = ["Baja", "Alta", "Urgente"]
 ESTADOS_VALIDOS = ["Asignado", "En Curso", "Cancelado", "Finalizado"]
 
 # Configuración de GitHub
-GITHUB_TOKEN = os.getenv("GITHUB_TOKEN")
+GITHUB_TOKEN = "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"
 REPO_OWNER = "JM-GV"
 REPO_NAME = "HerramientaIncidencias-Python"
 BRANCH = "main"  # Cambia si usas otra rama
@@ -189,8 +188,8 @@ def login():
     usuario = input(Fore.BLUE + "Usuario: " + Style.RESET_ALL).strip()
     contrasena = getpass(Fore.BLUE + "Contraseña: " + Style.RESET_ALL).strip()
 
-    if usuario == _USER and contrasena == _PASS:
-        print(Fore.GREEN + "\nBienvenido, istrador.\n" + Style.RESET_ALL)
+    if usuario == ADMIN_USER and contrasena == ADMIN_PASS:
+        print(Fore.GREEN + "\nBienvenido, Administrador.\n" + Style.RESET_ALL)
         return usuario
 
     usuarios = load_users()
@@ -209,8 +208,8 @@ def menu_principal(usuario_actual):
         print("\n")
         print(" *** Inicio ***")
         print("\n")
-        if usuario_actual == _USER:
-            # Menú para el istrador
+        if usuario_actual == ADMIN_USER:
+            # Menú para el administrador
             print("1 📝  Crear Ticket")
             print("2 🗑   Borrar Ticket")
             print("3 👤  Crear Usuario")
