@@ -35,5 +35,15 @@
     "estado": "Asignado",
     "creado_en": "2025-09-04T08:13:18",
     "historial": []
+  },
+  {
+    "id": "3",
+    "titulo": "Cambios en el Hardware",
+    "descripcion": "Han llegado los nuevos dispositivos de pantalla de los equipos de la oficina, es necesario cambiarlos antes del próximo Martes.",
+    "prioridad": "Alta",
+    "asignado_a": "usuariosistemas",
+    "estado": "Asignado",
+    "creado_en": "2025-09-04T08:15:05",
+    "historial": []
   }
 ]
