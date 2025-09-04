@@ -3,5 +3,10 @@
     "usuario": "usuario",
     "password": "1234",
     "grupo": "Apoyo"
+  },
+  {
+    "usuario": "usuariogestion",
+    "password": "1234",
+    "grupo": "Apoyo"
   }
 ]
