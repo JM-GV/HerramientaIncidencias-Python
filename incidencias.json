@@ -15,5 +15,15 @@
         "usuario": "usuario"
       }
     ]
+  },
+  {
+    "id": "1",
+    "titulo": "Actualizacion VPN",
+    "descripcion": "Se necesita actualizar los equipos de la sala 1 a la ultima version para que la VPN funcione correctamente.",
+    "prioridad": "Baja",
+    "asignado_a": "usuariosistemas",
+    "estado": "Asignado",
+    "creado_en": "2025-09-04T08:12:16",
+    "historial": []
   }
 ]
