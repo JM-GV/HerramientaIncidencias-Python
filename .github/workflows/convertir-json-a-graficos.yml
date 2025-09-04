@@ -1,0 +1,37 @@
+name: Convertir JSON a Gráficos
+
+on:
+  workflow_dispatch:  # Permite ejecutar el workflow manualmente desde la interfaz de GitHub
+    inputs:
+      script_name:
+        description: "Nombre del script Python a ejecutar (debe estar en el repositorio)"
+        required: true
+        default: "convertirJSONaGraficos.py"
+
+jobs:
+  convertir-json:
+    runs-on: ubuntu-latest
+
+    steps:
+    - name: Checkout del repositorio
+      uses: actions/checkout@v3
+
+    - name: Configurar Python
+      uses: actions/setup-python@v4
+      with:
+        python-version: 3.13
+
+    - name: Instalar dependencias
+      run: |
+        python -m pip install --upgrade pip
+        pip install pandas openpyxl
+
+    - name: Ejecutar el script
+      run: |
+        python ${{ github.event.inputs.script_name }} incidencias.json incidencias.xlsx
+
+    - name: Subir el archivo Excel como artefacto
+      uses: actions/upload-artifact@v3
+      with:
+        name: incidencias-excel
+        path: incidencias.xlsx
