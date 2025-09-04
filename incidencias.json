@@ -55,5 +55,15 @@
     "estado": "Asignado",
     "creado_en": "2025-09-04T09:36:57",
     "historial": []
+  },
+  {
+    "id": "6",
+    "titulo": "Error Lectura",
+    "descripcion": "El lector de tarjetas de la oficina no funciona, revisadlo.",
+    "prioridad": "Urgente",
+    "asignado_a": "usuariosistemas",
+    "estado": "Asignado",
+    "creado_en": "2025-09-04T09:37:45",
+    "historial": []
   }
 ]
