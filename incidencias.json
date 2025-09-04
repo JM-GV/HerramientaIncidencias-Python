@@ -9,7 +9,7 @@
     "creado_en": "2025-09-03T13:17:25",
     "historial": [
       {
-        "fecha": "2025-09-03T13:53:13",
+        "fecha": "2025-06-03T13:53:13",
         "estado": "En Curso",
         "comentario": "Se empieza a trabajar en la incidencia.",
         "usuario": "usuario"
@@ -33,7 +33,7 @@
     "prioridad": "Alta",
     "asignado_a": "usuariogestion",
     "estado": "Asignado",
-    "creado_en": "2025-09-04T08:13:18",
+    "creado_en": "2025-08-04T08:13:18",
     "historial": []
   },
   {
@@ -43,7 +43,7 @@
     "prioridad": "Alta",
     "asignado_a": "usuariosistemas",
     "estado": "Asignado",
-    "creado_en": "2025-09-04T08:15:05",
+    "creado_en": "2025-01-04T08:15:05",
     "historial": []
   },
   {
@@ -53,7 +53,7 @@
     "prioridad": "Baja",
     "asignado_a": "usuariosistemas",
     "estado": "Asignado",
-    "creado_en": "2025-09-04T09:36:57",
+    "creado_en": "2025-03-04T09:36:57",
     "historial": []
   },
   {
@@ -63,7 +63,7 @@
     "prioridad": "Urgente",
     "asignado_a": "usuariosistemas",
     "estado": "Asignado",
-    "creado_en": "2025-09-04T09:37:45",
+    "creado_en": "2025-05-04T09:37:45",
     "historial": []
   },
   {
@@ -73,7 +73,7 @@
     "prioridad": "Baja",
     "asignado_a": "usuariosistemas",
     "estado": "Asignado",
-    "creado_en": "2025-09-04T09:39:19",
+    "creado_en": "2025-10-04T09:39:19",
     "historial": []
   }
 ]
