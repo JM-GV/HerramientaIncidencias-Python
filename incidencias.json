@@ -45,5 +45,15 @@
     "estado": "Asignado",
     "creado_en": "2025-09-04T08:15:05",
     "historial": []
+  },
+  {
+    "id": "5",
+    "titulo": "Instalar Python",
+    "descripcion": "Instalar Python (version 3.13) en los equipos de la sala 3 para llevar a cabo pruebas de aplicaciones.",
+    "prioridad": "Baja",
+    "asignado_a": "usuariosistemas",
+    "estado": "Asignado",
+    "creado_en": "2025-09-04T09:36:57",
+    "historial": []
   }
 ]
